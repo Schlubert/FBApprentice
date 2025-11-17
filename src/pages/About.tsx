@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from "react-dom/client";
 import { Award, Users, BookOpen, Briefcase, GraduationCap, MessageSquare, Trophy, Target, Heart } from 'lucide-react';
 
 const AboutPage = () => {

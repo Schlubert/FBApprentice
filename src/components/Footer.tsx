@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from "react-dom/client";
 import { ChefHat, Instagram, Facebook, Youtube, Linkedin } from 'lucide-react';
 import { FooterProps } from '../types';
 

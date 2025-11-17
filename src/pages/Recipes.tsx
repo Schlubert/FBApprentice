@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from "react-dom/client";
 import { Search, Clock } from 'lucide-react';
 import { RecipesPageProps, RecipeFilter } from '../types';
 import { sampleRecipes } from '../data/recipes';

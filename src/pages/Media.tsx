@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactDOM from "react-dom/client";
 import { Play, Youtube, Clock, TrendingUp, BookOpen, Award, Mail, CheckCircle, X } from 'lucide-react';
 
 // Video data structure with better organization

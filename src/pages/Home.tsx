@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from "react-dom/client";
 import { BookOpen, Video, Award, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 import { HomePageProps } from '../types';
 import { sampleRecipes } from '../data/recipes';
@@ -55,7 +56,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage, setSelectedRecipe }
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/images/coupe-judging.jpg"
+                src="./images/coupe-judging.jpg"
                 alt="Competition judging at Coupe du Monde"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
